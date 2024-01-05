@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 10%;
+    background-image: url(beach.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    
+    background-color: rgba(245, 245, 245, 0.276);
+    height: 400px;
+    width: 400px;
+    border: solid white 2px;
+    border-radius: 10%;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+h2{
+    padding: 1rem;
+}
+
+.Submit{
+    font-size: large;
+    background-color: rgb(93, 124, 220);
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 5px;
+    border: white 2px solid;
+    border-radius: 20% / 70%;
+}
+.Submit:hover{
+    background-color: blue;
+}
+.Remember-me{
+    display: flex;
+    justify-content: space-between;
+    
+}
